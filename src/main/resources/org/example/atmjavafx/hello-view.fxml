@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="895.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.atmjavafx.HelloController">
+   <children>
+      <Label layoutX="283.0" layoutY="217.0" prefHeight="23.0" prefWidth="89.0" text="CardID" />
+      <Label layoutX="282.0" layoutY="267.0" prefHeight="23.0" prefWidth="89.0" text="Password" />
+      <TextField fx:id="cardId" layoutX="372.0" layoutY="216.0" prefHeight="25.0" prefWidth="242.0" />
+      <TextField fx:id="password" layoutX="371.0" layoutY="266.0" prefHeight="25.0" prefWidth="242.0" />
+      <Button fx:id="loginBtn" layoutX="384.0" layoutY="335.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="52.0" text="Log in" />
+      <Button fx:id="resetBtn" layoutX="461.0" layoutY="335.0" mnemonicParsing="false" onAction="#reset" prefHeight="25.0" prefWidth="52.0" text="Reset" />
+      <Label fx:id="welcomeText" layoutX="296.0" layoutY="125.0" text="Welcome to RKBank">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
